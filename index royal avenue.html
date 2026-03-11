@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Royal Avenue Sulfat - Hunian Mewah 2 Lantai dengan Private Pool di Kota Malang. Lokasi strategis dekat RS Puri Bunda & Tol Pakis.">
+  <title>ROYAL AVENUE SULFAT - By Tomoland</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --navy:#1e3a8a;
+      --navy-dark:#0f172a;
+      --gold:#d97706;
+      --gold-light:#f59e0b;
+      --slate:#1e293b;
+      --text:#374151;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    .heading-font {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .text-gold {
+      color: var(--gold);
+    }
+
+    .text-gradient {
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .gradient-primary {
+      background: linear-gradient(135deg, var(--navy) 0%, #1e40af 100%);
+    }
+
+    .gradient-accent {
+      background: linear-gradient(135deg, var(--gold) 0%, #b45309 100%);
+    }
+
+    .gradient-dark {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--slate) 100%);
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background:
+        linear-gradient(rgba(15,23,42,.72), rgba(15,23,42,.82)),
+        url('https://www.grahaagung.id/wp-content/uploads/2025/11/Jual-Rumah-di-Sulfat-Kota-Malang-scaled.jpeg') center/cover no-repeat;
+    }
+
+    @media (min-width: 992px) {
+      .hero-section {
+        background-attachment: fixed;
+      }
+    }
+
+    .glass-effect {
+      background: rgba(255,255,255,.10);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,.20);
+    }
+
+    .text-shadow {
+      text-shadow: 0 2px 10px rgba(0,0,0,.3);
+    }
+
+    .hover-lift {
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,.15);
+    }
+
+    .card-hover {
+      transition: all .35s ease;
+      border: none;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,.12);
+    }
+
+    .border-gradient {
+      border: 2px solid transparent;
+      background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(135deg, var(--navy) 0%, #3b82f6 100%) border-box;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+    }
+
+    .section-title-line {
+      width: 48px;
+      height: 4px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--gold) 0%, #b45309 100%);
+      display: inline-block;
+      margin-right: 12px;
+    }
+
+    .navbar-custom {
+      transition: all .3s ease;
+      padding: 14px 0;
+    }
+
+    .navbar-scrolled {
+      background: rgba(255,255,255,.96) !important;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+
+    .navbar-scrolled .nav-link,
+    .navbar-scrolled .navbar-brand-main {
+      color: #1f2937 !important;
+    }
+
+    .navbar-scrolled .navbar-brand-sub {
+      color: var(--gold) !important;
+    }
+
+    .brand-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 14px rgba(0,0,0,.10);
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+
+    .brand-logo img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+
+    .navbar .nav-link {
+      font-weight: 600;
+      color: #fff;
+      transition: .3s ease;
+    }
+
+    .navbar .nav-link:hover {
+      color: #fde68a;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--gold) 0%, #b45309 100%);
+      color: #fff;
+      border: none;
+    }
+
+    .btn-gold:hover {
+      color: #fff;
+      opacity: .95;
+    }
+
+    .btn-navy {
+      background: linear-gradient(135deg, var(--navy) 0%, #1e40af 100%);
+      color: #fff;
+      border: none;
+    }
+
+    .btn-navy:hover {
+      color: #fff;
+      opacity: .95;
+    }
+
+    .hero-orb {
+      position: absolute;
+      border-radius: 50%;
+      opacity: .10;
+      animation: pulse 4s infinite;
+      pointer-events: none;
+    }
+
+    .orb-1 {
+      width: 180px;
+      height: 180px;
+      background: #1d4ed8;
+      top: 20%;
+      left: 12%;
+    }
+
+    .orb-2 {
+      width: 240px;
+      height: 240px;
+      background: #ca8a04;
+      bottom: 15%;
+      right: 12%;
+      animation-delay: 1s;
+    }
+
+    @keyframes pulse {
+      0%,100% { transform: scale(1); opacity: .08; }
+      50% { transform: scale(1.08); opacity: .16; }
+    }
+
+    .hero-stat {
+      border-radius: 20px;
+      padding: 20px 14px;
+      text-align: center;
+    }
+
+    .hero-stat h4 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .hero-stat p {
+      margin: 0;
+      color: #fde68a;
+      font-size: .95rem;
+    }
+
+    .feature-icon,
+    .info-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--navy) 0%, #1e40af 100%);
+      color: #fff;
+      font-size: 1.4rem;
+    }
+
+    .mini-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #dbeafe;
+      color: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      height: 320px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .7s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.75), rgba(0,0,0,.1));
+      opacity: 0;
+      transition: opacity .4s ease;
+      display: flex;
+      align-items: flex-end;
+      padding: 24px;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .unit-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #f59e0b;
+      color: #fff;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 999px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.12);
+    }
+
+    .spec-box {
+      background: #f8fafc;
+      border: 1px solid #eef2f7;
+      border-radius: 16px;
+      padding: 16px 12px;
+      text-align: center;
+      height: 100%;
+    }
+
+    .spec-box i {
+      color: #2563eb;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .contact-box {
+      background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
+      border-radius: 28px;
+    }
+
+    .social-circle,
+    .floating-wa {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background: linear-gradient(135deg, var(--navy) 0%, #1e40af 100%);
+      text-decoration: none;
+      transition: .3s ease;
+    }
+
+    .floating-wa {
+      width: 64px;
+      height: 64px;
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 1050;
+      box-shadow: 0 18px 38px rgba(0,0,0,.25);
+      font-size: 1.8rem;
+    }
+
+    .social-circle:hover,
+    .floating-wa:hover {
+      color: #fff;
+      transform: translateY(-4px);
+    }
+
+    .footer-link {
+      color: #fff;
+      text-decoration: none;
+      transition: .3s ease;
+    }
+
+    .footer-link:hover {
+      color: #fde68a;
+    }
+
+    footer,
+    footer p,
+    footer li,
+    footer a,
+    footer span,
+    footer h5,
+    footer small {
+      color: #fff !important;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all .8s cubic-bezier(.5,0,0,1);
+    }
+
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-30px);
+      transition: all .8s cubic-bezier(.5,0,0,1);
+    }
+
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(30px);
+      transition: all .8s cubic-bezier(.5,0,0,1);
+    }
+
+    .reveal.active,
+    .reveal-left.active,
+    .reveal-right.active {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+
+    @media (max-width: 991.98px) {
+      .section-padding {
+        padding: 60px 0;
+      }
+
+      .hero-section {
+        background-attachment: scroll;
+      }
+
+      .hero-stat h4 {
+        font-size: 1.4rem;
+      }
+
+      .gallery-item {
+        height: 260px;
+      }
+
+      .floating-wa {
+        width: 54px;
+        height: 54px;
+        right: 16px;
+        bottom: 16px;
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom bg-transparent">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <div class="brand-logo">
+          <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Perumahan-Royal-Avenue.png" alt="Logo">
+        </div>
+        <div class="d-flex flex-column lh-1">
+          <span class="heading-font fw-bold fs-4 navbar-brand-main text-white">ROYAL AVENUE</span>
+          <span class="small text-warning navbar-brand-sub" style="letter-spacing:2px;">BY TOMOLAND</span>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Fasilitas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#units">Tipe Unit</a></li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="btn btn-gold rounded-pill px-4 py-2 fw-semibold hover-lift" href="#contact">Hubungi Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="container position-relative" style="z-index:2; padding-top:100px;">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-10">
+          <h1 class="heading-font text-white fw-bold text-shadow mb-4">
+            <span class="d-block fs-3 fs-md-2 fw-normal mb-2">Pilihan Rumah Mewah</span>
+            <span class="d-block display-4 display-lg-2">Royal Avenue Sulfat</span>
+          </h1>
+
+          <p class="lead text-light mx-auto mb-5" style="max-width:760px;">
+            Perpaduan Keanggunan Klasik dan Gaya Hidup Modern di Kota Malang.
+          </p>
+
+          <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-5">
+            <a href="#gallery" class="btn btn-light text-primary fw-bold rounded-pill px-4 py-3 hover-lift">
+              <i class="fas fa-images me-2"></i> Jelajahi Galeri
+            </a>
+            <a href="#contact" class="btn glass-effect text-white fw-bold rounded-pill px-4 py-3 hover-lift">
+              <i class="fas fa-calendar-alt me-2"></i> Jadwal Survei
+            </a>
+          </div>
+
+          <div class="row g-3 g-md-4 mt-3">
+            <div class="col-6 col-md-3">
+              <div class="glass-effect hero-stat">
+                <h4>4</h4>
+                <p>Kamar Tidur</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="glass-effect hero-stat">
+                <h4>Pool</h4>
+                <p>Private Pool</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="glass-effect hero-stat">
+                <h4>88m²</h4>
+                <p>Luas Tanah</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="glass-effect hero-stat">
+                <h4>24 Jam</h4>
+                <p>Keamanan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5 d-none d-md-block">
+            <a href="#about" class="text-white fs-3 text-decoration-none">
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section-padding bg-light">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal-left">
+          <div class="position-relative">
+            <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Rumah-Hunian-Sulfat-Kota-Malang-1.png"
+                 alt="Interior Royal Avenue"
+                 class="img-fluid rounded-5 shadow-lg hover-lift">
+
+            <div class="position-absolute bg-white rounded-4 shadow p-4"
+                 style="right:-10px; bottom:-20px; max-width:260px;">
+              <div class="d-flex align-items-center mb-3">
+                <div class="feature-icon me-3" style="width:52px; height:52px; border-radius:50%;">
+                  <i class="fas fa-award"></i>
+                </div>
+                <div>
+                  <div class="fw-bold fs-3 text-primary">10+</div>
+                  <div class="small text-muted">Thn Pengalaman</div>
+                </div>
+              </div>
+              <p class="small text-muted mb-0">Terpercaya oleh Tomoland.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal-right">
+          <div class="d-flex align-items-center mb-3">
+            <span class="section-title-line"></span>
+            <span class="text-gold fw-semibold text-uppercase small" style="letter-spacing:1.5px;">Tentang Kami</span>
+          </div>
+
+          <h2 class="heading-font fw-bold display-6 mb-4">
+            <span class="d-block">Hunian Klasik</span>
+            <span class="text-gradient">Gaya Modern</span>
+          </h2>
+
+          <p class="mb-4">
+            Royal Avenue Sulfat adalah persembahan eksklusif dari PT Tomoland di kawasan strategis Kota Malang.
+            Kami menghadirkan hunian yang memadukan keanggunan desain klasik dengan kenyamanan gaya hidup modern yang dinamis.
+          </p>
+
+          <div class="mb-4">
+            <div class="d-flex mb-4">
+              <div class="mini-icon me-3"><i class="fas fa-map-marked-alt"></i></div>
+              <div>
+                <h5 class="fw-bold mb-1">Lokasi Strategis</h5>
+                <p class="mb-0 text-muted">Hanya 1 menit ke RS Puri Bunda dan 6 menit ke Tol Pakis.</p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="mini-icon me-3"><i class="fas fa-hard-hat"></i></div>
+              <div>
+                <h5 class="fw-bold mb-1">Kualitas Premium</h5>
+                <p class="mb-0 text-muted">Dinding bata merah, lantai granit 60x60, dan struktur beton bertulang.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#features" class="btn btn-navy rounded-pill px-4 py-3 fw-bold hover-lift">
+            Lihat Spesifikasi <i class="fas fa-arrow-right ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section-padding" style="background:#f8fafc;">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 reveal" style="max-width:760px;">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+          <span class="section-title-line"></span>
+          <span class="text-gold fw-semibold text-uppercase small" style="letter-spacing:1.5px;">Fasilitas Unggulan</span>
+        </div>
+        <h2 class="heading-font fw-bold display-6 mb-3">
+          Kenyamanan <span class="text-gradient">Premium</span>
+        </h2>
+        <p class="lead text-muted">
+          Nikmati fasilitas kawasan yang dirancang untuk meningkatkan kualitas hidup keluarga Anda.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="card card-hover rounded-5 shadow h-100 p-4">
+            <div class="feature-icon mb-4"><i class="fas fa-shield-alt"></i></div>
+            <h4 class="fw-bold mb-3">Keamanan 24 Jam</h4>
+            <p class="text-muted mb-0">Sistem One Gate System dengan pengawasan CCTV 24 jam untuk ketenangan pikiran Anda.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="card card-hover rounded-5 shadow h-100 p-4">
+            <div class="feature-icon mb-4"><i class="fas fa-swimmer"></i></div>
+            <h4 class="fw-bold mb-3">Private Pool</h4>
+            <p class="text-muted mb-0">Unit tertentu dilengkapi dengan kolam renang pribadi untuk relaksasi maksimal di rumah sendiri.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="card card-hover rounded-5 shadow h-100 p-4">
+            <div class="feature-icon mb-4"><i class="fas fa-tree"></i></div>
+            <h4 class="fw-bold mb-3">Green Area</h4>
+            <p class="text-muted mb-0">Taman bermain (playground) dan jogging track dengan lingkungan yang tertata rapi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-2">
+        <div class="col-md-6 reveal">
+          <div class="border-gradient rounded-5 p-4 h-100">
+            <div class="d-flex">
+              <div class="mini-icon me-3"><i class="fas fa-mosque"></i></div>
+              <div>
+                <h5 class="fw-bold mb-2">Fasilitas Ibadah</h5>
+                <p class="text-muted mb-0">Tersedia Masjid di dalam kawasan perumahan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 reveal">
+          <div class="border-gradient rounded-5 p-4 h-100">
+            <div class="d-flex">
+              <div class="mini-icon me-3"><i class="fas fa-road"></i></div>
+              <div>
+                <h5 class="fw-bold mb-2">Infrastruktur Baik</h5>
+                <p class="text-muted mb-0">Jalan lebar, drainase modern, dan row jalan nyaman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 reveal" style="max-width:760px;">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+          <span class="section-title-line"></span>
+          <span class="text-gold fw-semibold text-uppercase small" style="letter-spacing:1.5px;">Galeri</span>
+        </div>
+        <h2 class="heading-font fw-bold display-6 mb-3">
+          <span class="text-gradient">Visual</span> Hunian
+        </h2>
+        <p class="lead text-muted">Lihat lebih dekat detail dan keindahan Royal Avenue Sulfat.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="gallery-item">
+            <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Jual-Rumah-di-Sulfat-Kota-Malang-scaled.jpeg" alt="Eksterior Mewah">
+            <div class="gallery-overlay">
+              <div>
+                <h4 class="text-white fw-bold mb-1">Facade Modern</h4>
+                <p class="text-light mb-0">Desain 2 Lantai</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="gallery-item">
+            <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Rumah-Hunian-Sulfat-Kota-Malang-1.png" alt="Interior Luas">
+            <div class="gallery-overlay">
+              <div>
+                <h4 class="text-white fw-bold mb-1">Interior</h4>
+                <p class="text-light mb-0">Kenyamanan maksimal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="gallery-item">
+            <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Denah-Perumahan-Royal-Avenue.jpg" alt="Denah Rumah">
+            <div class="gallery-overlay">
+              <div>
+                <h4 class="text-white fw-bold mb-1">Denah</h4>
+                <p class="text-light mb-0">Layout fungsional</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 reveal">
+        <div class="gradient-primary rounded-5 p-4 p-lg-5">
+          <div class="row align-items-center g-4">
+            <div class="col-md-6 order-2 order-md-1">
+              <h3 class="text-white fw-bold mb-3">Investasi Menguntungkan</h3>
+              <p class="text-light mb-4">
+                Lokasi strategis dekat kampus, rumah sakit, dan pusat kota menjadikan Royal Avenue pilihan tepat untuk hunian maupun investasi.
+              </p>
+              <a href="https://wa.me/6282134625927" class="btn btn-light text-primary fw-bold rounded-pill px-4 py-3 hover-lift">
+                <i class="fab fa-whatsapp me-2"></i> Hubungi Marketing
+              </a>
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+              <img src="https://www.grahaagung.id/wp-content/uploads/2025/10/Investasi-Rumah-Kost-Malang-daerah-Sulfat.jpg"
+                   alt="Lokasi Strategis"
+                   class="img-fluid rounded-4 shadow-lg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="units" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mx-auto mb-5 reveal" style="max-width:760px;">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+          <span class="section-title-line"></span>
+          <span class="text-gold fw-semibold text-uppercase small" style="letter-spacing:1.5px;">Tipe Unit</span>
+        </div>
+        <h2 class="heading-font fw-bold display-6 mb-3">
+          Pilihan <span class="text-gradient">Terbaik</span>
+        </h2>
+        <p class="lead text-muted">
+          Royal Avenue Sulfat menawarkan satu tipe eksklusif yang dirancang untuk kesempurnaan.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-xl-8 reveal">
+          <div class="card rounded-5 overflow-hidden shadow-lg border-0 card-hover">
+            <div class="position-relative">
+              <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Type-Rumah-Sulfat-Kota-Malang.jpg"
+                   alt="Tipe 100 + Pool"
+                   class="img-fluid w-100"
+                   style="height:360px; object-fit:cover;">
+              <div class="unit-badge">
+                <i class="fas fa-star me-1"></i> Best Seller
+              </div>
+            </div>
+
+            <div class="card-body p-4 p-lg-5">
+              <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
+                <h3 class="fw-bold mb-0">Tipe 100 + <span class="text-primary">Pool</span></h3>
+                <div class="text-md-end">
+                  <span class="d-block text-muted small">Harga Mulai</span>
+                  <span class="d-block fw-bold fs-3 text-success">Rp 1M-an</span>
+                </div>
+              </div>
+
+              <div class="row g-3 mb-4">
+                <div class="col-6 col-md-3">
+                  <div class="spec-box">
+                    <i class="fas fa-expand"></i>
+                    <p class="small text-muted mb-1">Luas Bangunan</p>
+                    <p class="fw-bold mb-0">100 m²</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="spec-box">
+                    <i class="fas fa-vector-square"></i>
+                    <p class="small text-muted mb-1">Luas Tanah</p>
+                    <p class="fw-bold mb-0">88 m²</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="spec-box">
+                    <i class="fas fa-bed"></i>
+                    <p class="small text-muted mb-1">Kamar Tidur</p>
+                    <p class="fw-bold mb-0">4 Ruang</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="spec-box">
+                    <i class="fas fa-bath"></i>
+                    <p class="small text-muted mb-1">Kamar Mandi</p>
+                    <p class="fw-bold mb-0">2 Ruang</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row g-2 mb-4">
+                <div class="col-md-6"><p class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Private Pool (Kolam Renang)</p></div>
+                <div class="col-md-6"><p class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Carport Mobil</p></div>
+                <div class="col-md-6"><p class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Lantai Granite Tile 60x60</p></div>
+                <div class="col-md-6"><p class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Bata Merah Finishing Acian</p></div>
+              </div>
+
+              <hr>
+
+              <h5 class="fw-bold mb-2">Spesifikasi Bonus:</h5>
+              <p class="text-muted mb-4">Listrik 1300 Watt, PDAM, Kusen Aluminium, Pintu Kayu Meranti.</p>
+
+              <a href="https://wa.me/6282134625927?text=Halo,%20saya%20tertarik%20dengan%20info%20Royal%20Avenue%20Tipe%20100"
+                 class="btn btn-navy w-100 py-3 rounded-4 fw-bold hover-lift">
+                <i class="fab fa-whatsapp me-2"></i> Minta Brosur & Pricelist
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-muted small mt-4 mb-0">
+        *Gambar visualisasi mungkin berbeda dengan realisasi bangunan. Syarat & ketentuan berlaku.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section-padding bg-white">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 reveal-left">
+          <div class="d-flex align-items-center mb-3">
+            <span class="section-title-line"></span>
+            <span class="text-gold fw-semibold text-uppercase small" style="letter-spacing:1.5px;">Hubungi Kami</span>
+          </div>
+
+          <h2 class="heading-font fw-bold display-6 mb-3">
+            Siap <span class="text-gradient">Memiliki?</span>
+          </h2>
+
+          <p class="lead text-muted mb-5">
+            Jangan lewatkan kesempatan memiliki hunian mewah di lokasi prima Kota Malang.
+          </p>
+
+          <div class="mb-4 d-flex">
+            <div class="feature-icon me-3" style="width:56px;height:56px;border-radius:18px;">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-1">Lokasi Proyek</h5>
+              <p class="text-muted mb-0">Kawasan Sulfat, Kota Malang (Dekat RS Puri Bunda)</p>
+            </div>
+          </div>
+
+          <div class="mb-5 d-flex">
+            <div class="feature-icon me-3" style="width:56px;height:56px;border-radius:18px;">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-1">Marketing Office</h5>
+              <p class="text-muted mb-1">0821-3462-5927</p>
+              <p class="text-primary fw-semibold small mb-0">Chat WhatsApp Available 24/7</p>
+            </div>
+          </div>
+
+          <h5 class="fw-bold mb-3">Official Social Media</h5>
+          <div class="d-flex gap-3">
+            <a href="#" class="social-circle"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-circle"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal-right">
+          <div class="contact-box border-gradient shadow-lg p-4 p-lg-5 h-100">
+            <h3 class="fw-bold mb-4">Kirim Pesan</h3>
+
+            <form id="contactForm">
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Nama Lengkap *</label>
+                  <input type="text" class="form-control form-control-lg rounded-4" placeholder="Nama Anda" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Email</label>
+                  <input type="email" class="form-control form-control-lg rounded-4" placeholder="email@anda.com">
+                </div>
+              </div>
+
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Telepon / WA *</label>
+                  <input type="tel" class="form-control form-control-lg rounded-4" placeholder="08xxxxx" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Minat Unit</label>
+                  <select class="form-select form-select-lg rounded-4">
+                    <option value="Type 100">Type 100 + Pool</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label fw-semibold">Pesan</label>
+                <textarea class="form-control rounded-4" rows="6" placeholder="Halo, saya ingin info lebih lanjut tentang Royal Avenue..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-navy w-100 py-3 rounded-4 fw-bold hover-lift">
+                <i class="fab fa-whatsapp me-2"></i> Kirim via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="gradient-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="brand-logo me-3" style="width:42px;height:42px;">
+              <img src="https://www.grahaagung.id/wp-content/uploads/2025/11/Perumahan-Royal-Avenue.png" alt="Logo">
+            </div>
+            <div class="heading-font fs-4 fw-bold">
+              <span>ROYAL </span><span class="text-warning">AVENUE</span>
+            </div>
+          </div>
+          <p>
+            Hunian mewah 2 lantai dengan private pool di lokasi emas Kota Malang.
+          </p>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-bold mb-3">Navigasi</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#home" class="footer-link">Beranda</a></li>
+            <li class="mb-2"><a href="#about" class="footer-link">Tentang Royal Avenue</a></li>
+            <li class="mb-2"><a href="#features" class="footer-link">Fasilitas</a></li>
+            <li class="mb-2"><a href="#units" class="footer-link">Tipe Unit</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-bold mb-3">Kontak Kami</h5>
+          <p class="mb-2"><i class="fas fa-map-marker-alt text-warning me-2"></i> Sulfat, Kota Malang</p>
+          <p class="mb-0"><i class="fas fa-phone-alt text-warning me-2"></i> 0821-3462-5927</p>
+        </div>
+
+        <div class="col-md-6 col-lg-2">
+          <h5 class="fw-bold mb-3">Developed By</h5>
+          <div class="fs-4 fw-bold" style="letter-spacing:2px;">TOMOLAND</div>
+        </div>
+      </div>
+
+      <hr class="border-secondary">
+
+      <p class="text-center small mb-0">
+        © 2025 Royal Avenue by PT Tomoland. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6282134625927" target="_blank" class="floating-wa hover-lift" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const navbar = document.getElementById('mainNavbar');
+
+    function updateNavbar() {
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-scrolled');
+        navbar.classList.remove('navbar-dark');
+        navbar.classList.add('navbar-light');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+        navbar.classList.remove('navbar-light');
+        navbar.classList.add('navbar-dark');
+      }
+    }
+
+    window.addEventListener('scroll', updateNavbar);
+    updateNavbar();
+
+    function revealElements() {
+      const items = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+      const windowHeight = window.innerHeight;
+
+      items.forEach((item) => {
+        const top = item.getBoundingClientRect().top;
+        if (top < windowHeight - 120) {
+          item.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', revealElements);
+    window.addEventListener('load', revealElements);
+
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const btn = this.querySelector('button[type="submit"]');
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Mengalihkan...';
+      btn.disabled = true;
+
+      const name = this.querySelector('input[type="text"]').value;
+      const phone = this.querySelector('input[type="tel"]').value;
+      const email = this.querySelector('input[type="email"]').value;
+      const unit = this.querySelector('select').value;
+      const msg = this.querySelector('textarea').value;
+
+      const text =
+        `Halo, saya ${name}.%0A` +
+        `No. WA: ${phone}%0A` +
+        `Email: ${email || '-'}%0A` +
+        `Minat Unit: ${unit}%0A` +
+        `Pesan: ${msg || '-'}`;
+
+      const url = `https://wa.me/6282134625927?text=${text}`;
+
+      setTimeout(() => {
+        window.open(url, '_blank');
+        btn.innerHTML = originalHtml;
+        btn.disabled = false;
+      }, 800);
+    });
+
+    document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse) bsCollapse.hide();
+      });
+    });
+  </script>
+</body>
+</html>
