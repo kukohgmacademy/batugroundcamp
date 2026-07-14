@@ -497,8 +497,18 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://batugroundcamping.web.id/assets/img/mikutopia-batu.png</image:loc>
+            <image:loc>https://batugroundcamping.web.id/assets/img/wisata-mikutopia.webp</image:loc>
             <image:title>Wisata Mikutopia Batu</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/harga-tiket-mikutopia-batu</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/harga-tiket-mikutopia.png</image:loc>
+            <image:title>Harga Tiket Mikutopia Batu Terbaru 2026</image:title>
         </image:image>
     </url>
 </urlset>
