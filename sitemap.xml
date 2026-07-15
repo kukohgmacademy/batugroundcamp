@@ -511,5 +511,15 @@
             <image:title>Harga Tiket Mikutopia Batu Terbaru 2026</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/wahana-spot-foto-mikutopia-batu</loc>
+        <lastmod>2026-07-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/spot-foto-mikutopia-batu.png</image:loc>
+            <image:title>Wahana dan Spot Foto Mikutopia Batu Terlengkap</image:title>
+        </image:image>
+    </url>
 </urlset>
 
