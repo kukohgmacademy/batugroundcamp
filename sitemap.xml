@@ -521,5 +521,14 @@
             <image:title>Wahana dan Spot Foto Mikutopia Batu Terlengkap</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rute-dan-lokasi-mikutopia-batu</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rute-lokasi-mikutopia-batu.png</image:loc>
+            <image:title>Rute dan Lokasi Mikutopia Batu, Ini Cara ke Sana</image:title>
+        </image:image>
+    </url>
 </urlset>
-
