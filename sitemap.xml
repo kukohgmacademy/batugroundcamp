@@ -531,4 +531,24 @@
             <image:title>Rute dan Lokasi Mikutopia Batu, Ini Cara ke Sana</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/wisata-pantai-malang-selatan</loc>
+        <lastmod>2026-07-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rekomendasi-pantai.webp</image:loc>
+            <image:title>Wisata Pantai Malang Selatan Panduan Lengkap 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rekomendasi-pantai-terbaik-malang-selatan</loc>
+        <lastmod>2026-07-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rekomendasi-pantai.webp</image:loc>
+            <image:title>Rekomendasi Pantai Terbaik di Malang Selatan</image:title>
+        </image:image>
+    </url>
 </urlset>
