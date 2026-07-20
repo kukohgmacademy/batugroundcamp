@@ -561,4 +561,14 @@
             <image:title>Rute dan Biaya Perjalanan ke Pantai Malang Selatan</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/aktivitas-waktu-terbaik-pantai-malang-selatan</loc>
+        <lastmod>2026-07-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/aktivitas-pantai-malang.png</image:loc>
+            <image:title>Aktivitas dan Waktu Terbaik ke Pantai Malang Selatan</image:title>
+        </image:image>
+    </url>
 </urlset>
