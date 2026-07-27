@@ -651,4 +651,24 @@
             <image:title>Rute dan Harga Tiket Taman Wisata Batu Kapal</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/wisata-alam-batu-panduan-lengkap.html</loc>
+        <lastmod>2026-07-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/wisata-alam-batu-panduan-lengkap.webp</image:loc>
+            <image:title>Wisata Alam di Batu: Panduan Lengkap Destinasi dan Cara Memilihnya</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/wisata-alam-alternatif-batu.html</loc>
+        <lastmod>2026-07-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/wisata-alam-alternatif-batu.webp</image:loc>
+            <image:title>Wisata Alam Alternatif di Batu: Pilihan di Luar Destinasi Mainstream</image:title>
+        </image:image>
+    </url>
 </urlset>
