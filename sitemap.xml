@@ -791,4 +791,64 @@
             <image:title>Lokasi Rafting Kaliwatu: Rute dan Wisata Terdekat</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-songa-panduan-lengkap.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-songa.webp</image:loc>
+            <image:title>Rafting Songa: Panduan Lengkap Sebelum Ikut Arung Jeram</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/songa-adventure-profil-layanan.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/songa-adventure.webp</image:loc>
+            <image:title>Songa Adventure: Profil, Layanan, dan Keunggulannya</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-songa-vs-rafting-malang.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-songa-vs-malang.webp</image:loc>
+            <image:title>Rafting Songa vs Rafting Malang, Mana yang Cocok?</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-dan-biaya-paket-rafting-songa.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/tips-biaya-rafting-songa.webp</image:loc>
+            <image:title>Tips dan Biaya Paket Rafting Songa Sebelum Booking</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-kasembon-panduan-lengkap.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-kasembon.webp</image:loc>
+            <image:title>Rafting Kasembon: Panduan Lengkap Arung Jeram di Kali Konto Malang</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/harga-dan-paket-rafting-kasembon.html</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/harga-paket-rafting-kasembon.webp</image:loc>
+            <image:title>Harga dan Paket Rafting Kasembon Terbaru</image:title>
+        </image:image>
+    </url>
 </urlset>
