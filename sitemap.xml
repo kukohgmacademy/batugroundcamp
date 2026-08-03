@@ -911,4 +911,24 @@
             <image:title>Tips Memilih Paket Rafting Keluarga yang Aman untuk Anak</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-panduan-lengkap-arung-jeram-untuk-pemula.html</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-panduan-pemula.webp</image:loc>
+            <image:title>Rafting: Panduan Lengkap Arung Jeram untuk Pemula</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/manfaat-rafting-bagi-kesehatan-fisik-dan-mental.html</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/manfaat-rafting.webp</image:loc>
+            <image:title>Manfaat Rafting bagi Kesehatan Fisik dan Mental</image:title>
+        </image:image>
+    </url>
 </urlset>
