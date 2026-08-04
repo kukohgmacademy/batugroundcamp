@@ -931,4 +931,24 @@
             <image:title>Manfaat Rafting bagi Kesehatan Fisik dan Mental</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-panduan-lengkap-arung-jeram-untuk-pemula-hingga-rombongan.html</loc>
+        <lastmod>2026-08-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-panduan-pemula-rombongan.webp</image:loc>
+            <image:title>Rafting: Panduan Lengkap Arung Jeram untuk Pemula hingga Rombongan</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-komunitas-panduan-lengkap-agenda-kumpul-yang-seru.html</loc>
+        <lastmod>2026-08-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-komunitas.webp</image:loc>
+            <image:title>Rafting Komunitas: Panduan Lengkap Agenda Kumpul yang Seru</image:title>
+        </image:image>
+    </url>
 </urlset>
