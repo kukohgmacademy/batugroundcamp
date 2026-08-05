@@ -951,4 +951,24 @@
             <image:title>Rafting Komunitas: Panduan Lengkap Agenda Kumpul yang Seru</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rafting-klub-motor-dan-mobil-ide-agenda-kumpul-yang-berbeda.html</loc>
+        <lastmod>2026-08-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rafting-klub-motor-mobil.webp</image:loc>
+            <image:title>Rafting Klub Motor dan Mobil: Ide Agenda Kumpul yang Berbeda</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-memilih-paket-rafting-untuk-rombongan-besar.html</loc>
+        <lastmod>2026-08-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/paket-rafting-rombongan-besar.webp</image:loc>
+            <image:title>Tips Memilih Paket Rafting untuk Rombongan Besar</image:title>
+        </image:image>
+    </url>
 </urlset>
