@@ -1011,4 +1011,24 @@
             <image:title>Tips Memilih Operator Rafting Malang yang Aman</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/manfaat-olahraga-arung-jeram-bagi-tubuh-dan-pikiran.html</loc>
+        <lastmod>2026-08-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/manfaat-olahraga-arung-jeram-tubuh-pikiran.webp</image:loc>
+            <image:title>Manfaat Olahraga Arung Jeram bagi Tubuh dan Pikiran</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/manfaat-fisik-olahraga-arung-jeram-bagi-tubuh.html</loc>
+        <lastmod>2026-08-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/manfaat-fisik-olahraga-arung-jeram-tubuh.webp</image:loc>
+            <image:title>Manfaat Fisik Olahraga Arung Jeram bagi Tubuh</image:title>
+        </image:image>
+    </url>
 </urlset>
