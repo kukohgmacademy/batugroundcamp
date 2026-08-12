@@ -1071,4 +1071,24 @@
             <image:title>Rute dan Lokasi Terbaik Arung Jeram Batu Malang</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/kisaran-harga-paket-arung-jeram-batu-malang.html</loc>
+        <lastmod>2026-08-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/kisaran-harga-paket-arung-jeram-batu.webp</image:loc>
+            <image:title>Kisaran Harga dan Paket Arung Jeram Batu Malang</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-memilih-operator-arung-jeram-batu-malang-yang-aman.html</loc>
+        <lastmod>2026-08-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/tips-memilih-operator-arung-jeram-batu.webp</image:loc>
+            <image:title>Tips Memilih Operator Arung Jeram Batu Malang yang Aman</image:title>
+        </image:image>
+    </url>
 </urlset>
