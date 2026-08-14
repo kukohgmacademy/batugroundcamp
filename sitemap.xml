@@ -1111,4 +1111,24 @@
             <image:title>Perlengkapan Keselamatan Rafting yang Wajib Dipakai</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/prosedur-sop-keselamatan-rafting.html</loc>
+        <lastmod>2026-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/prosedur-sop-keselamatan-rafting.webp</image:loc>
+            <image:title>Prosedur dan SOP Keselamatan Rafting Sebelum Berangkat</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-memilih-operator-rafting-aman.html</loc>
+        <lastmod>2026-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/tips-memilih-operator-rafting-aman.webp</image:loc>
+            <image:title>Tips Memilih Operator Rafting yang Aman dan Terpercaya</image:title>
+        </image:image>
+    </url>
 </urlset>
