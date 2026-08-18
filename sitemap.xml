@@ -1151,4 +1151,24 @@
             <image:title>Rute dan Lokasi Rafting Murah Terbaik di Malang dan Batu</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/kisaran-harga-paket-rafting-murah.html</loc>
+        <lastmod>2026-08-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/middle-kisaran-harga.webp</image:loc>
+            <image:title>Kisaran Harga Paket Rafting Murah dan Faktor Penentunya</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-memilih-operator-rafting-murah.html</loc>
+        <lastmod>2026-08-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/middle-tips-memilih.webp</image:loc>
+            <image:title>Tips Memilih Operator Rafting Murah yang Aman dan Terpercaya</image:title>
+        </image:image>
+    </url>
 </urlset>
