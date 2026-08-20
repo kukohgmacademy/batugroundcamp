@@ -1191,4 +1191,24 @@
             <image:title>Tips Memilih Operator Sewa Perahu Karet Rafting</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/river-rafting-panduan-lengkap-pemula.html</loc>
+        <lastmod>2026-08-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/river-rafting-pemula.webp</image:loc>
+            <image:title>River Rafting: Panduan Lengkap untuk Pemula</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/manfaat-river-rafting-fisik-mental.html</loc>
+        <lastmod>2026-08-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/manfaat-river-rafting-fisik.webp</image:loc>
+            <image:title>Manfaat River Rafting bagi Fisik dan Mental Anda</image:title>
+        </image:image>
+    </url>
 </urlset>
