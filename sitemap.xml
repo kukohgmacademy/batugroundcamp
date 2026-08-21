@@ -1211,4 +1211,24 @@
             <image:title>Manfaat River Rafting bagi Fisik dan Mental Anda</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/persiapan-perlengkapan-river-rafting.html</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/persiapan-perlengkapan-river-rafting.webp</image:loc>
+            <image:title>Persiapan dan Perlengkapan River Rafting untuk Pemula</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/tips-memilih-operator-river-rafting.html</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/tips-memilih-operator-river-rafting.webp</image:loc>
+            <image:title>Tips Memilih Operator River Rafting yang Aman</image:title>
+        </image:image>
+    </url>
 </urlset>
