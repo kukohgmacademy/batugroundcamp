@@ -1253,12 +1253,22 @@
     </url>
     <url>
         <loc>https://batugroundcamping.web.id/blog/cara-memilih-penyedia-paket-outbound.html</loc>
-        <lastmod>2026-08-22</lastmod>
+        <lastmod>2026-08-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
             <image:loc>https://batugroundcamping.web.id/assets/img/cara-memilih-penyedia-paket-outbound.webp</image:loc>
             <image:title>Cara Memilih Penyedia Paket Outbound dan Rafting Perusahaan</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/biaya-kesalahan-memesan-paket-outbound.html</loc>
+        <lastmod>2026-08-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/biaya-kesalahan-memesan-paket-outbound.webp</image:loc>
+            <image:title>Biaya dan Kesalahan Umum dalam Memesan Paket Outbound dan Rafting Perusahaan</image:title>
         </image:image>
     </url>
 </urlset>
