@@ -1271,4 +1271,24 @@
             <image:title>Biaya dan Kesalahan Umum dalam Memesan Paket Outbound dan Rafting Perusahaan</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/perbedaan-rafting-kaliwatu-kasembon.html</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/perbedaan-rafting-kaliwatu-kasembon.webp</image:loc>
+            <image:title>Perbedaan Rafting Kaliwatu dan Kasembon: Mana yang Cocok untuk Anda?</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/perbedaan-tingkat-kesulitan-jeram.html</loc>
+        <lastmod>2026-08-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/perbedaan-tingkat-kesulitan-jeram.webp</image:loc>
+            <image:title>Perbedaan Tingkat Kesulitan Jeram Rafting Kaliwatu dan Kasembon</image:title>
+        </image:image>
+    </url>
 </urlset>
