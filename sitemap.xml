@@ -1291,4 +1291,24 @@
             <image:title>Perbedaan Tingkat Kesulitan Jeram Rafting Kaliwatu dan Kasembon</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/perbandingan-harga-paket-rafting.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/perbandingan-harga-paket-rafting.webp</image:loc>
+            <image:title>Perbandingan Harga Paket Rafting Kaliwatu dan Kasembon</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/panduan-memilih-rafting-kaliwatu-kasembon.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/panduan-memilih-rafting-kaliwatu-kasembon.webp</image:loc>
+            <image:title>Panduan Memilih Rafting Kaliwatu atau Kasembon Sesuai Kebutuhan</image:title>
+        </image:image>
+    </url>
 </urlset>
