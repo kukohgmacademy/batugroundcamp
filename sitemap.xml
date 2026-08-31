@@ -1351,4 +1351,24 @@
             <image:title>Kesalahan Umum Memesan Jasa Rafting di Malang dan Cara Menghindarinya</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rekomendasi-provider-rafting.html</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rekomendasi-provider-rafting.webp</image:loc>
+            <image:title>Rekomendasi Provider Rafting Malang Terbaik</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/cara-memilih-jasa-rafting-aman-malang.html</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/cara-memilih-jasa-rafting-aman-malang.webp</image:loc>
+            <image:title>Cara Memilih Jasa Rafting Aman di Malang</image:title>
+        </image:image>
+    </url>
 </urlset>
