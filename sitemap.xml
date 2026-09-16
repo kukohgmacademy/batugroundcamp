@@ -1631,4 +1631,24 @@
             <image:title>Biaya dan Kesalahan Umum Outbound Acara Purna Tugas</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/panduan-outbound-edukatif-berkurikulum.html</loc>
+        <lastmod>2026-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/panduan-outbound-edukatif-berkurikulum.webp</image:loc>
+            <image:title>Outbound Edukatif Berkurikulum, Panduan Lengkap untuk Sekolah</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/manfaat-outbound-edukatif-berkurikulum.html</loc>
+        <lastmod>2026-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/manfaat-outbound-edukatif-berkurikulum.webp</image:loc>
+            <image:title>Manfaat Outbound Edukatif Berkurikulum bagi Siswa dan Sekolah</image:title>
+        </image:image>
+    </url>
 </urlset>
