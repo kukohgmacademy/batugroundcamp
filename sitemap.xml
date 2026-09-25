@@ -1791,4 +1791,24 @@
             <image:title>Cakupan Lokasi Arena Paintball di Malang Raya</image:title>
         </image:image>
     </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/rekomendasi-tempat-main-paintball-outdoor-terbaik.html</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/rekomendasi-tempat-main-paintball-outdoor-terbaik.webp</image:loc>
+            <image:title>Rekomendasi Tempat Main Paintball Outdoor Terbaik 2026</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://batugroundcamping.web.id/blog/cara-memilih-arena-paintball-outdoor-aman.html</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://batugroundcamping.web.id/assets/img/cara-memilih-arena-paintball-outdoor-aman.webp</image:loc>
+            <image:title>Cara Memilih Arena Paintball Outdoor yang Aman</image:title>
+        </image:image>
+    </url>
 </urlset>
